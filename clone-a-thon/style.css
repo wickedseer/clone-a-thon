@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+
+.carousel-item {
+    height: 300px;
+}
+
+#cimg {
+    height: 300px;
+    width: 33%;
+}
+
+#label {
+    text-align: center;
+}
+
+#craimg {
+    height: 550px;
+}
+
+#products {
+    width: 100%;
+}
+
+#footer {
+    height: 10rem;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+    transition: transform .2s;
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.red:hover{
+    color: red;
+}
+
+.white{
+    color:white;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption { 
+    display: table-caption;
+    text-align: center;
+  }
+
+  .yellow{
+    color: rgb(179, 179, 42);
+  }
